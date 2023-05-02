@@ -7,13 +7,12 @@ To use this project, you will need to have dbt installed on your local machine. 
 
 To get started, clone this repository to your local machine:
 
-bash
-Copy code
+bash <br>
 git clone https://github.com/EricGrose7/dbt_snowflake.git
+
 You will also need to set up your Snowflake credentials in a profiles.yml file. A template file is provided in the repository:
 
-yaml
-Copy code
+yaml   <br>
 dbt_snowflake:
   target: dev
   outputs:
